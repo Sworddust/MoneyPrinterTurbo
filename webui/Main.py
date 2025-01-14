@@ -8,6 +8,14 @@ from loguru import logger
 
 current_dir = os.getcwd()  
 print('当前目录：'+current_dir)
+def print_files_and_dirs():
+    # 获取当前目录
+    current_dir = os.getcwd()
+    # 遍历当前目录下的所有文件和目录
+    for entry in os.listdir(current_dir):
+        print(entry)
+
+print_files_and_dirs()
 #sys.path.append(os.path.join(current_dir, 'MoneyPrinterTurbo'))
 sys.path.append('../')
 
