@@ -7,6 +7,7 @@ import streamlit as st
 from loguru import logger
 
 current_dir = os.getcwd()  
+print(current_dir)
 #sys.path.append(os.path.join(current_dir, 'MoneyPrinterTurbo'))
 sys.path.append('../')
 
