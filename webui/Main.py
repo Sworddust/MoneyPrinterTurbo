@@ -7,9 +7,8 @@ import streamlit as st
 from loguru import logger
 
 current_dir = os.getcwd()  
-sys.path.append(os.path.join(current_dir, 'MoneyPrinterTurbo'))
-
-from app.config import config
+#sys.path.append(os.path.join(current_dir, 'MoneyPrinterTurbo'))
+sys.path.append('MoneyPrinterTurbo')
 
 from app.config import config
 from app.models.const import FILE_TYPE_IMAGES, FILE_TYPE_VIDEOS
