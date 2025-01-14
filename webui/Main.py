@@ -8,7 +8,7 @@ from loguru import logger
 
 current_dir = os.getcwd()  
 #sys.path.append(os.path.join(current_dir, 'MoneyPrinterTurbo'))
-sys.path.append('MoneyPrinterTurbo')
+sys.path.append('/')
 
 from app.config import config
 from app.models.const import FILE_TYPE_IMAGES, FILE_TYPE_VIDEOS
