@@ -16,7 +16,7 @@ def print_files_and_dirs():
         print(entry)
 
 print_files_and_dirs()
-sys.path.append(os.path.join(current_dir, 'moneyprinterturbo'))
+sys.path.append(os.path.join(current_dir, '/mount/src/moneyprinterturbo'))
 
 from app.config import config
 from app.models.const import FILE_TYPE_IMAGES, FILE_TYPE_VIDEOS
