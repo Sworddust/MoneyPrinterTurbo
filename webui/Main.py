@@ -6,6 +6,11 @@ from uuid import uuid4
 import streamlit as st
 from loguru import logger
 
+current_dir = os.getcwd()  
+sys.path.append(os.path.join(current_dir, 'MoneyPrinterTurbo'))
+
+from app.config import config
+
 from app.config import config
 from app.models.const import FILE_TYPE_IMAGES, FILE_TYPE_VIDEOS
 from app.models.schema import MaterialInfo, VideoAspect, VideoConcatMode, VideoParams
